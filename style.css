@@ -2,13 +2,14 @@
 @import url('https://fonts.googleapis.com/css2?family=League+Script&family=Neonderthaw&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 body{
-    margin: 0;
-    padding: 0;
     background-image: url(img/bg.jpg);
     font-family: "Poppins";
+    margin: 0;
+    padding: 0;
 }
 html{
     scroll-behavior: smooth;
+
 }
 nav{
     display: flex;
@@ -245,12 +246,18 @@ a{
     align-items: center;
     margin-top: 160px;
 }
+.signature img{
+    width: 100px;
+}
 .footer1 ul{
     list-style: none;
     display: flex;
     gap: 20px;
     align-items: center;
     font-size: 12px;
+}
+.footer1 ul li img{
+    width: 24px;
 }
 .separation{
     width: 80vw;
@@ -329,5 +336,161 @@ a{
 .project-links{
     display: flex;
     justify-content: space-between;
+}
+nav > img{
+    width: 150px;
+}
+nav  a  img{
+    width: 28px;
+}
+@media only screen and (max-width: 455px) {
+    body{
+        overflow-x: hidden;
+    }
+    .home{
+        width: 100vw;
+    }
+    .me{
+        width: 100vw;
+        margin-top: 0;
+    }
+    .me-body{
+        width: 100%;
+    }
+    .me ul{
+        font-size: 40px;
+        padding: 0 10px;
+    }
+    .welcome{
+        padding: 0 20px;
+    }
+    
+    .me-img{
+        display: none;
+    }
+    .about{
+        width: 95vw;
+        padding: 0;
+        margin-bottom: 0;
+    }
+    .about h1{
+        font-size: 30px;
+    }
+    .about h2{
+        font-size: 20px;
+        width: 362px;
+    }
+    .about p{
+        font-size: 16px;
+        width: 95%;
+    }
+    .skills{
+        width: 95vw;
+        padding: 0;
+        margin: 0 auto;
+    }
+    .skills h1{
+        font-size: 30px;
+    }
+    .skill{
+        width: 90vw;
+    }
+    .projects{
+        margin: 0;
+        padding: 10px;
+    }
+    .projects h1{
+        font-size: 30px;
+    }
+    .contacts{
+        width: 95vw;
+        margin: 0 auto;
+        flex-direction: column;
+        padding: 0px;
+    }
+    .contacts h1{
+        font-size: 30px;
+        margin-bottom: 0;
+    }
+    .contacts p{
+        margin: 0;
+        padding: 0;
+        font-size: 16px;
+    }
+    .contact-info{
+        width: 100%;
+    }
+    .contact-ids ul{
+        margin: 0;
+    }
+    .message{
+        margin: 20px 0;
+        width: 250px;
+        height: 300px;
+        padding: 10px;
+        padding-top: 0;
+    }
+    .message h2{
+        font-size: 24px;
+    }
+    .topLine{
+        margin-bottom: 10px;
+    }
+    .detail{
+        margin-top: 0;
+        height: 200px;
+    }
+    .detail input{
+        margin: 4px 6px;
+        padding: 6 10px;
+    }
+    .footer1{
+        margin: 0;
+        width: 95vw;
+        padding:0 10px;
+    }
+    .signature img{
+        width: 40px;
+    }
+    .footer1 ul{
+        font-size: 8px;
+        gap: 8px;
+    }
+    .footer1 ul li img{
+        width: 10px;
+        height: 30px;
+    }
+    .separation{
+        width: 90vw;
+        padding:0 10px;
+    }
+    .footer2{
+        width: 95vw;
+    }
+    .end-about ul{
+        gap: 2px;
+        font-size: 8px;
+        margin: 4px 0;
+    }
+    .end-line{
+        font-size: 8px;
+    }
+    .end-line small{
+        font-size: 8px;
+    }
+    nav{
+        justify-content: space-between;
+        padding: 3px;
+    }
+    nav ul{
+        font-size: 11px;
+        gap: 5px;
+    }
+    nav > img{
+        width: 60px;
+    }
+    nav a  img{
+        width: 15px;
+    }
 }
 
